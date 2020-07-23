@@ -1,0 +1,13 @@
+version: 1
+rules:
+  - patterns: /whitelist/i
+    expected: allowlist
+
+  - patterns: /blacklist/i
+    expected: denylist
+
+  - patterns: ホワイトリスト
+    expected: アローリスト
+
+  - patterns: ブラックリスト
+    expected: デニーリスト
